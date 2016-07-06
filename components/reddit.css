@@ -1,0 +1,101 @@
+#header {
+    border-bottom: none;
+}
+#header #sr-header-area {
+    padding: 1em;
+    border-bottom: none;
+    background-color: #f9f9f9 !important;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#header #sr-header-area .width-clip {
+    margin-left: 1em;
+    margin-right: 1em;                                   
+}
+
+#header-bottom-left {
+    background-color: #3f4a51;
+}
+
+#header-bottom-left #header-img {
+  	display: none; 
+}
+
+#header-bottom-left .tabmenu {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    height: 27px;
+}
+.hover.pagename.redditname {
+    font-weight: lighter;
+    margin: 2em;
+    margin-bottom: 3em;
+    text-align: center;
+    display: block;
+}
+
+.hover.pagename.redditname a {
+    color: rgba(222, 227, 230, 1);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 1em;
+}
+.hover.pagename.redditname a:before {
+    content: "/r/";
+}
+
+#header-bottom-left .tabmenu li {
+    font-weight: 600;
+}
+
+#header-bottom-left .tabmenu li a {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(222, 227, 230, 1);
+    border: none;
+    padding: 1em;
+}
+#header-bottom-left .tabmenu li.selected a {
+    color: rgba(255, 124, 127, 1);
+    box-shadow: 0 -3px 0 0 #96bfcf inset;
+}
+
+.beta-hint {
+    display: none;
+}
+
+.footer.rounded {
+    display: none;
+}
+
+div.content {
+ 	background-color: rgba(222, 227, 230, 1);   
+    margin: 0;
+    padding: 1em 5em 1em 5em;
+}
+
+div.spacer {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#siteTable {
+	width: 60%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #siteTable {
+        width: 90%;
+    }
+}
+
+#siteTable .link {
+ 	background-color: #ffffff;
+    margin: 1em;
+    padding: 1em;
+}
+
+div.side {
+    display: none;
+}
